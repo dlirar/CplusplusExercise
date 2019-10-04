@@ -37,6 +37,6 @@ int main(){
 	//scanf("%d %d", &nota, &octava);
     //cout << nota << " " << octava << endl;
 	f = frecuencia(nota, octava);
-	imprimir(f);
+	Beep(f,500);
     return 0;
 }
